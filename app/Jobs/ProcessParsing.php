@@ -47,7 +47,7 @@ class ProcessParsing implements ShouldQueue
                 $product->images()->create(['url' => $image]);
             }
         } catch (QueryException $e) {
-            info($e->getMessage());
+//            info($e->getMessage());
         }
     }
 
